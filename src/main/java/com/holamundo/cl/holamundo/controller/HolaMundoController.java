@@ -18,29 +18,4 @@ public class HolaMundoController{
         return "Hola a todos mi nombre es " + nombre;
     }
 
-    @RequestMapping("/api/suma")
-    public String suma(){
-        int a = 18;
-        int b = 9;
-        int resultado = a + b;
-        return "El resultado de la suma "+ a + b + "es" +  resultado; 
-    }
-
-    @RequestMapping("/api/resta")
-    public String resta(){
-        int a = 81;
-        int b = 9;
-        int resultado = a - b;
-        return "El resultado de la suma "+ a + b + "es" +  resultado; 
-    }
-
-    @RequestMapping("/api/multiplicacion")
-    public String multiplicar(){
-        int a = 5;
-        int b = 6;
-        int resultado = a + b;
-        return "El resultado de la multiplicacion entre " + a + b + " es " + resultado;
-    }
-
-
 }
